@@ -1,6 +1,17 @@
-import sys;
-import math
+import sys; # for input output
+# input from a file:
 sys.stdin = open("input.txt", "r");
+# output to a file:
+sys.stdout = open("output.txt", "w");
+sys.stdout.close();
+
+
+# Go through num and get combinations missing a member
+nums = [1,2,3,4];
+for i in range(len(nums)):
+  newList
+
+
 
 # 1. Sum of numbers up to n:
 def sum_to_n(n):

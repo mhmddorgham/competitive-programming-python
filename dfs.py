@@ -9,7 +9,7 @@ class Node:
 def DFS(node):
     if node is None:
         return;
-    print(node.value, end=" ");
+    print(node.value, end=" --> ");
     DFS(node.left);
     DFS(node.right);
 
@@ -18,6 +18,7 @@ def BFS(root):
     if root is None:
         return;
     queue = deque([root])
+    print("root:: ", root);
     while queue:
         node = queue.popleft()
         print(node.value, end=" ");
